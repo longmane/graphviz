@@ -1,0 +1,92 @@
+python graphviz.py -f Config.Current.Running.dc-fwsm-13.txt -o dot-13
+dot -Tjpg dot-13.gv -o 13.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-15.txt -o dot-15
+dot -Tjpg dot-15.gv -o 15.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-44.txt -o dot-44
+dot -Tjpg dot-44.gv -o 44.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-46.txt -o dot-46
+dot -Tjpg dot-46.gv -o 46.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-82.txt -o dot-82
+dot -Tjpg dot-82.gv -o 82.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-88.txt -o dot-88
+dot -Tjpg dot-88.gv -o 88.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-93.txt -o dot-93
+dot -Tjpg dot-93.gv -o 93.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-94.txt -o dot-94
+dot -Tjpg dot-94.gv -o 94.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-95.txt -o dot-95
+dot -Tjpg dot-95.gv -o 95.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-98.txt -o dot-98
+dot -Tjpg dot-98.gv -o 98.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-213.txt -o dot-213
+dot -Tjpg dot-213.gv -o 213.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-215.txt -o dot-215
+dot -Tjpg dot-215.gv -o 215.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-250.txt -o dot-250
+dot -Tjpg dot-250.gv -o 250.jpg
+python graphviz.py -f Config.Current.Running.dc-fwsm-254.txt -o dot-254
+dot -Tjpg dot-254.gv -o 254.jpg
+
+python graphviz.py -f Config.Current.Running.mec-fwsm-16.txt -o dot-16
+dot -Tjpg dot-16.gv -o 16.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-41.txt -o dot-41
+dot -Tjpg dot-41.gv -o 41.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-48.txt -o dot-48
+dot -Tjpg dot-48.gv -o 48.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-92.txt -o dot-92
+dot -Tjpg dot-92.gv -o 92.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-217.txt -o dot-217
+dot -Tjpg dot-217.gv -o 217.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-251.txt -o dot-251
+dot -Tjpg dot-251.gv -o 251.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-464.txt -o dot-464
+dot -Tjpg dot-464.gv -o 464.jpg
+python graphviz.py -f Config.Current.Running.mec-fwsm-906.txt -o dot-906
+dot -Tjpg dot-906.gv -o 906.jpg
+
+python graphviz.py -f Config.Current.Running.sn-fwsm-249.txt -o dot-249
+dot -Tjpg dot-249.gv -o 249.jpg
+
+python graphviz.py -f Config.Current.Running.TF-fw.txt -o dot-tf
+dot -Tjpg dot-tf.gv -o tf.jpg
+
+python graphviz.py -f Config.Current.Running.Compliance_systems_FW.txt -o dot-1092
+dot -Tjpg dot-1092.gv -o 1092.jpg
+
+python graphviz.py -f Config.Current.Running.ucs-asa-2.txt -o dot-2
+dot -Tjpg dot-2.gv -o 2.jpg
+python graphviz.py -f Config.Current.Running.ucs-asa-42.txt -o dot-42
+dot -Tjpg dot-42.gv -o 42.jpg
+python graphviz.py -f Config.Current.Running.ucs-asa-416.txt -o dot-416
+dot -Tjpg dot-416.gv -o 416.jpg
+python graphviz.py -f Config.Current.Running.ucs-asa-1093.txt -o dot-1093
+dot -Tjpg dot-1093.gv -o 1093.jpg
+python graphviz.py -f Config.Current.Running.ucs-asa-2000.txt -o dot-2000
+dot -Tjpg dot-2000.gv -o 2000.jpg
+
+python graphviz.py -f Config.Current.Running.itmnet-vpn.txt -o dot-itmnet
+dot -Tjpg dot-itmnet.gv -o itmnet.jpg
+python graphviz.py -f Config.Current.Running.l3-dorm-fw.txt -o dot-dorm
+dot -Tjpg dot-dorm.gv -o l3dorm.jpg
+python graphviz.py -f Config.Current.Running.l3-fw.txt -o dot-fw
+dot -Tjpg dot-fw.gv -o l3fw.jpg
+python graphviz.py -f Config.Current.Running.l3-tecenter-fw.txt -o dot-techcenter
+dot -Tjpg dot-techcenter.gv -o l3techcenter.jpg
+
+#python graphviz.py -f Config.Current.Running.dc-fwsm-admin.txt -o dot-dcadmin
+#dot -Tjpg dot-dcadmin.gv -o dcadmin.jpg
+#python graphviz.py -f Config.Current.Running.dc-fwsm--system.txt -o dot-dcsystem
+#dot -Tjpg dot-dcsystem.gv -o dcsystem.jpg
+
+#python graphviz.py -f Config.Current.Running.mec-asa-admin.txt -o dot-mecadmin
+#dot -Tjpg dot-mecadmin.gv -o mecadmin.jpg
+#python graphviz.py -f Config.Current.Running.mec-asa-system.txt -o dot-mecsystem
+#dot -Tjpg dot-mecsystem.gv -o mecsystem.jpg
+
+#python graphviz.py -f Config.Current.Running.ucs-asa-admin.txt -o dot-ucsadmin
+#dot -Tjpg dot-ucsadmin.gv -o ucsadmin.jpg
+#python graphviz.py -f Config.Current.Running.ucs-asa-system.txt -o dot-ucssystem
+#dot -Tjpg dot-ucssystem.gv -o ucssystem.jpg
+
+
+
