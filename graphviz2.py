@@ -1,3 +1,7 @@
+# EMILY'S COPY DEV VERSION
+# 1/22/18
+#
+#
 #version 16
 #Written by Eric Kollmann xnih13@gmail.com
 #Use at own risk
@@ -32,6 +36,8 @@
 #
 
 
+
+# add in dot as a library for ease of use?
 import argparse, os, sys
 parser = argparse.ArgumentParser(prog='parser.py', usage='%prog)s {-f input_file } [-o output_file]') 
 parser.add_argument("-f", "--file", type=str, required=True, help="Parse a single asa fw file") 
@@ -121,7 +127,7 @@ def lookupDraw(term):
       outDotFile.write(line + '\n')
 
 
-
+# Keep this, works well
 def findTimeRange(term):
   timeRange = ''
   for s in timeRangeRecords:
@@ -132,7 +138,7 @@ def findTimeRange(term):
   return timeRange
 
 
-
+# Keep this as well
 def findPort(term):
   switched = False
   for s in objectgroupProtocolRecords:
@@ -146,7 +152,7 @@ def findPort(term):
   return switched
 
 
-
+# Keep this
 def findHost(host):
   info = host
   for s in nameRecords:
@@ -167,7 +173,7 @@ def findHost(host):
   return info
 
 
-
+# Keep this function, quick and dirty is what we want
 def validIP(address):
   #there are better checks and ones that would do IPv6, but only interested in quick/dirty check for IPv4 for our env at this time
   try:
