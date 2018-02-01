@@ -188,7 +188,8 @@ def validIP(address):
     return False
   
 
-
+# runs through firewall rule file and returns neccessary information
+# Seems like this could definitely be done more cleanly
 def ruleProcess(search, line, count):
   proto = ''
   src = ''
@@ -407,6 +408,8 @@ def ruleProcess(search, line, count):
 
   return [src, port, dst, count, inactive, deny, debugging, log, timeRange]
   
+
+
 records = [] 
 record = [] 
 end = 0 
@@ -426,6 +429,7 @@ header = 'digraph G {\n graph [rankdir = "TB" overlap=false];\n ratio = auto;\n\
 
 outDotFile.write(header) 
 
+# Finds the desired hostname in the record I assume?
 x = 0
 found = 0
 for i in records:
